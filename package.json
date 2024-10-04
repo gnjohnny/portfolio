@@ -6,7 +6,8 @@
   "scripts": {
     "tailwind": "npx tailwindcss -i ./src/input.css -o ./css/style.css",
     "tailwind/dev": "npx tailwindcss -i ./src/input.css -o ./css/style.css --watch",
-    "dev": "nodemon backend/index.js"
+    "dev": "nodemon backend/index.js",
+    "start": "node backend/index.js"
   },
   "keywords": [],
   "author": "",
