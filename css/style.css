@@ -1159,17 +1159,11 @@ video {
   background-color: rgb(147 51 234 / var(--tw-bg-opacity));
 }
 
-@media (min-width: 425px) {
-  .sm\:top-\[650px\] {
-    top: 650px;
-  }
-
-  .sm\:top-\[630px\] {
+@media (min-width: 768px) {
+  .md\:top-\[630px\] {
     top: 630px;
   }
-}
 
-@media (min-width: 768px) {
   .md\:flex {
     display: flex;
   }
